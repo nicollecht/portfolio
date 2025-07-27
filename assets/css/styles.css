@@ -318,6 +318,11 @@ img {
     gap: 1rem;
 }
 
+.home__img{
+    width: 100;
+    padding-top: 2.5rem;
+}
+
 .home__content{
     grid-template-columns: .5fr 3fr;
     padding-top: 3.5rem;
@@ -1320,3 +1325,10 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+/* Fix for mobile button issue */
+
+@media screen and (max-width: 768px) {
+    .portfolio__content {
+      padding: 0 1rem;
+    }
+  }
