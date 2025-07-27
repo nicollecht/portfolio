@@ -193,11 +193,14 @@ img {
 
 .header {
     width: 100%;
+    height: var(--header-height); /* adăugă asta */
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    content: '\F15AB';
+    background: transparent;
+    background-color: rgba(255, 0, 0, 0.3); /* temporar, doar pt test */
 
 }
 
